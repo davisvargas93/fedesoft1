@@ -1,0 +1,54 @@
+/* Clase para eliminar los margenes internos */
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.margin-lo-20 {
+    margin-bottom: 20px;
+}
+
+.red-hover:hover {
+    color: #ff0000
+}
+
+
+/* elemetos */
+
+.col-md-4 span {
+    border: 2px solid #00ff00;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.col-md-6>div {
+    border: 3px botted #0000ff;
+}
+
+
+/* identificador */
+
+#alto {
+    height: 100vh;
+    background-color: #0f0f0f;
+}
+
+
+/* transition  */
+
+.col-md-4:hover {
+    background-color: #0f0;
+    transition: background-color 2s;
+}
+
+.col-md-4 {
+    transition: background-color 2s;
+}
+
+.col-md-4::before {
+    content: 'yyyy';
+}
+
+.col-md-4::after {
+    content: 'xxxxxxxxx';
+}
